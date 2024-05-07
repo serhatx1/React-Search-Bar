@@ -1,0 +1,79 @@
+{
+    "mostClicked": {
+      "phrases": [
+        "best-selling t-shirts",
+        "best popular summer styles",
+        "top picks for the season",
+        "new arrivals in t-shirts",
+        "summer t-shirt sale",
+        "limited edition designs",
+        "customer favorites for summer",
+        "must-have beachwear",
+        "hot deals on t-shirts",
+        "exclusive summer items",
+        "staff picks for sunny days",
+        "best value tees",
+        "clearance sale on summer wear",
+        "shop by t-shirt category",
+        "explore summer fashion now",
+        "gift ideas for summer",
+        "seasonal collection of t-shirts",
+        "featured brands for warm weather",
+        "recommended t-shirts for you",
+        "top-rated summer items",
+        "latest trends in t-shirts",
+        "back in stock summer tees",
+        "lowest prices on t-shirts",
+        "bundle deals for summer outfits",
+        "shop the summer look",
+        "personalized summer picks",
+        "customizable t-shirt options",
+        "made for summer comfort",
+        "best quality summer wear",
+        "premium best selection of summer clothes",
+        "best find your summer style",
+        "shop now for summer"
+      ]
+    },
+    "rarelyClicked": {
+      "phrases": [
+        "best out of stock summer items",
+        "discontinued summer wear",
+        "not available in summer sizes",
+        "unpopular summer picks",
+        "poor best reviews on summer clothes",
+        "high return rate on summer purchases",
+        "rejected best summer items",
+        "missing description for summer wear",
+        "low inventory of summer styles",
+        "outdated summer fashion",
+        "overpriced summer products",
+        "out of fashion summer wear",
+        "not recommended for summer",
+        "bad quality summer clothing",
+        "subpar selection of summer wear",
+        "unreliable summer brands",
+        "limited selection of summer items",
+        "uninspiring summer options",
+        "not worth it for summer",
+        "stale inventory for summer"
+      ]
+    },
+    "noneClicked": {
+      "phrases": [
+        "unexplored summer deals",
+        "overlooked summer items",
+        "neglected summer products",
+        "best undiscovered summer items",
+        "unnoticed summer bargains",
+        "unselected summer options",
+        "untapped summer selections",
+        "unseen summer offers",
+        "unconsidered summer choices",
+        "ignored summer deals",
+        "unacknowledged summer picks",
+        "unattended summer items"
+      ]
+    }
+  }
+  
