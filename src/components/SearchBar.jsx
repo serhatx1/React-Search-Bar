@@ -13,6 +13,10 @@ export const SearchBar = () => {
         handleSearch(e.target.value)
     };
     const handleSearch = (targetValue)=>{
+        console.log(targetValue.replace(/s\g/, '').length)
+        if(targetValue.replace(/\s/g, '').length<1){
+            return 0
+        }
         const loopData = (datas)=>{
             
             let forSearchedBefore = []
@@ -103,13 +107,21 @@ export const SearchBar = () => {
         <div>
         {value.length > 0 && (
           <div className="text-black w-full">
-            <p className="max-w-full break-all cursor-pointer p-4 border-b-1 border-gray-200">{`Search for "${value}"`}</p>
+            <p className="max-w-full break-all cursor-pointer p-4 border-b-1 border-gray-200">{`Search for ${value}`}</p>
             {
                 showData.map((thread)=>(
-                    <div className='hover:bg-slate-300 p-2 cursor-pointer'>
+                    <div className='hover:bg-slate-300 p-2 pl-4 cursor-pointer'>
                         {thread}
+                        
                     </div>
                 ))
+            }
+            {
+                showData.length<1&&
+                <div className='hover:bg-slate-300 pl-4 cursor-pointer'>
+                No Result
+                
+            </div>
             }
 
           </div>
