@@ -5,7 +5,11 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
     <SearchBar/>
+=======
+    Hello
+>>>>>>> master
     </>
   )
 }
