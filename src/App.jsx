@@ -5,15 +5,7 @@ function App() {
 
   return (
     <>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <SearchBar/>
-=======
-    Hello
->>>>>>> master
-=======
-    Hello
->>>>>>> master
     </>
   )
 }
