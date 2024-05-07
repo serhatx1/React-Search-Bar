@@ -1,8 +1,14 @@
-# React + Vite
+# React Search Bar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple search bar component built using React. The component provides dynamic search functionality, displaying results as you type. It also stores previous searches for quick access.
+## Installation
 
-Currently, two official plugins are available:
+1. Clone the repository:
+    git clone https://github.com/serhatx1/React-Search-Bar.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Install dependencies:
+    npm install
+3. Start the development server:
+    npm start
+   Search Bar image
+![Search Bar](https://github.com/serhatx1/React-Search-Bar/blob/main/assets/49308319/e2f97ba8-b83d-4cd2-90a2-a26b8f73e7bb.png)
