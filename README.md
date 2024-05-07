@@ -11,4 +11,4 @@ This is a simple search bar component built using React. The component provides 
 3. Start the development server:
     npm start
    Search Bar image
-![Search Bar](https://github.com/serhatx1/React-Search-Bar/blob/main/assets/49308319/e2f97ba8-b83d-4cd2-90a2-a26b8f73e7bb.png)
+![Search Bar](https://github.com/serhatx1/React-Search-Bar/assets/49308319/ea5ab210-b1ed-49e0-9f7b-c610f35f1d6e)
