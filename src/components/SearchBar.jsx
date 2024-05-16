@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import data from "../Json/.json"
-console.log(data)
-
 export const SearchBar = () => {
     const [value, setValue] = useState("");
     const [isFocused, setIsFocused] = useState(false);
@@ -13,7 +11,6 @@ export const SearchBar = () => {
         handleSearch(e.target.value)
     };
     const handleSearch = (targetValue)=>{
-        console.log(targetValue.replace(/s\g/, '').length)
         if(targetValue.replace(/\s/g, '').length<1){
             return 0
         }
@@ -37,15 +34,9 @@ export const SearchBar = () => {
                 val.forEach((thread) => {
                     let exists = forSearchedBefore.some((searched) => thread === searched);
                     if (!exists) {
-                        console.log(thread)
                         forSearchedBefore.push(thread);
                     }
-                });
-                
-           
-        
-            
-            
+                }); 
             }
             
            }
@@ -58,14 +49,9 @@ export const SearchBar = () => {
             setShowData(searchedBefore[targetValue.toLowerCase()])
         }
         else{
-            console.log("searchedBefore")
-
             const datas =Object.values(data)
             setShowData([])
             loopData(datas)            
-            
-            
-
         }
     }
     const handleFocus = () => {
